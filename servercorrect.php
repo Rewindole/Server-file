@@ -7,13 +7,6 @@
 
 <body> 
     <?php
-        if(isset($_POST['Submit']))
-    // Trim usded to remove any white spaces or any predefined characters 
-        {
-        $fstudentID=trim($_POST["fstudentID"]);
-        $firstname=trim($_POST["firstname"]);
-        $lastname=trim($_POST["lastname"]);
-    }
 
     // Student ID validation 
     if($fstudentID =="") {
