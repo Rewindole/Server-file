@@ -24,7 +24,7 @@
     }
     else if(strlen($fstudentID)<10) {
         $fstudentID = (substr($fstudentID, 8, 10))
-        $errMsg .= "<p>Error: Student ID must be 8 to 10 ch aracters long</p>" 
+        $errMsg .= "<p>Error: Student ID must be 8 to 10 characters long</p>" 
     }
 
     // First name Validation 
