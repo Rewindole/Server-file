@@ -32,14 +32,14 @@
         $errMsg .= "<p>Error: Enter a valid first name</p>"
     }
     else if (!preg_match("/^[a-zA-Z]*$/",$firstname)) {
-        $errMsg .= "<p>Error: First name must consist of alpha characters and 30 characters long</p>"
+        $errMsg .= "<p>Error: First name must consist of alpha characters</p>"
     }
     else if (strlen($firstname)<30) {
         $errMsg = "<p>Error: Last name should be no longer then 30 characters</p>"
     }
 
     // last name Validation 
-    if ($firstname == "") { 
+    if ($lastname == "") { 
          $errMsg .= "<p>Error: Enter a valid first name</p>"
     }
     else if (!preg_match("/^[a-zA-Z]*$/", $lastname)) {
