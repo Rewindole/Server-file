@@ -74,7 +74,7 @@
 		<fieldset>
 			<legend>Select the correct statement</legend>
 			<label>What is a difference between XML and JSON?</label>
-			<select name='multiplechoice' id='multiplechoice'>
+			<select name='q6' id='multiplechoice'>
 				<option value='MC1'>JSON is W3C recommended whilst XML is not</option>
 				<option value='MC2' >XML is not limited to the pre-defined tags</option>
 				<option value='MC3' >XML doesn't have more verbose and less structured then JSON</option>
