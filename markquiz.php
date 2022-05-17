@@ -16,39 +16,6 @@
         $data = stripslashes($data);
         $data = htmlspecialchars($data);
         return $data;}
-        
-            /// ID, Name Validation Sectio
-    // Student ID validation 
-    if($fstudentID =="") {
-        $errMsg = "<p>Error: Enter a valid student ID</p>"
-    }
-    else if(strlen($fstudentID)<10) {
-        $fstudentID = (substr($fstudentID, 8, 10))
-        $errMsg .= "<p>Error: Student ID must be 8 to 10 characters long</p>" 
-    }
-
-    // First name Validation 
-    if ($firstname == "") { 
-        $errMsg .= "<p>Error: Enter a valid first name</p>"
-    }
-    else if (!preg_match("/^[a-zA-Z]*$/",$firstname)) {
-        $errMsg .= "<p>Error: First name must consist of alpha characters</p>"
-    }
-    else if (strlen($firstname)<30) {
-        $errMsg = "<p>Error: Last name should be no longer then 30 characters</p>"
-    }
-
-    // last name Validation 
-    if ($lastname == "") { 
-         $errMsg .= "<p>Error: Enter a valid first name</p>"
-    }
-    else if (!preg_match("/^[a-zA-Z]*$/", $lastname)) {
-        $errMsg .= "<p>Error: First name must consist of alpha characters and hyphens</p>"
-    }
-    else if (strlen($lastname)<30) {
-        $errMsg = "<p>Error: Last name should be no longer then 30 characters</p>"
-    }
-        
         //anwers
         $anw1 ="Charles Goldfarb, Edward Mosher, and Raymond Lorie";
         $anw2 ="Elements and tags";
