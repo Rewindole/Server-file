@@ -5,7 +5,7 @@
         <title>Mark Quiz</title>
         <meta name="description"    content="markquiz" />
         <meta name="keywords"   content="PHP,HTML" />
-        <meta name="author"     content="Luan Nguyen" />
+        <meta name="author"     content="Luan Nguyen, Dhruv Patel, Aston" />
     </head>
     <body>
         <?php
